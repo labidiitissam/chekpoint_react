@@ -1,0 +1,175 @@
+.App {
+  text-align: center;
+  
+    /* background-image: url(desktops/workshop-react/);*/
+     background-color: black;
+     background-size: cover;
+     background-repeat: no-repeat;
+    /* background-position: 100%;*/
+     color:white;
+ 
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+h1.home_text{
+  font-size: 30px;
+  font-weight: 800;
+  font-family: montserrat,sans-serif;
+  line-height: 40px;
+  color: gray(198,201,216,75)!important;
+  text-align: left;
+  margin-left:10%;
+  color: white;
+} 
+h2.home_text{
+  font-size: 40px;
+  font-weight: 800;
+  font-family: montserrat,sans-serif;
+  line-height: 54px;
+  color:rgb(225, 39, 45);
+  text-align: left;
+   margin-left: 10%;
+}
+h3.home_text{
+  font-size: 30px;
+  font-weight: 1000;
+  font-family: montserrat,sans-serif;
+  /*line-height: 50px;*/
+  text-align: left;
+  margin-left: 10%;
+  color: aliceblue;
+  width: 100%;
+}
+.carousel-top{
+  padding: 125px 0px; 
+}
+.d-block{
+  margin-top: 0%;
+  width:20%;
+  border-radius: 10px;
+  text-align: left;
+  margin-left: 20% !important;
+
+}
+.text{
+  display: flex; 
+}
+h4.home_text{
+  font-size: 20px;
+  font-weight: 800;
+  font-family: montserrat,sans-serif;
+  line-height: 40px;
+  text-align: left;
+  margin-left:  10%;
+  color: rgb(97, 98, 100);
+}
+h1.home_text1_h{
+  text-align: left;
+  margin-left: 70%;
+  margin-top: 1%;
+}
+p{
+  text-align: left;
+  margin-left: 70%;
+  background-color: black;
+  width: 30%;
+  color: white;
+}
+.btn{
+  background-color:rgb(42, 40, 40);
+  color:rgb(224, 24, 24);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.81rem 1.87rem;
+  border-radius: 30px;
+  border: 2px solid transparent;
+  transition: 0.5s;
+}
+.btn:hover{
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+.car_cap{
+  background-color: black;
+}
+
+.about_button{
+  display: flex;
+  justify-content:space-evenly;
+}
+
+.about_btn_pointer{
+  background-color:rgb(150, 147, 147);
+  color:rgb(217, 21, 21);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.81rem 1.87rem;
+  border-radius: 30px;
+  border: 2px solid transparent;
+  transition: 0.5s;
+  margin-left:80%;
+}
+/*.about_btn2_pointer{
+  background-color:rgb(168, 23, 23);
+  color:rgb(234, 226, 226);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.81rem 1.87rem;
+  border-radius: 30px;
+  border: 2px solid transparent;
+  transition: 0.5s;
+  margin-left:50%;
+}*/
+h1.home_text1_h{
+  color:#565758;
+  margin: top 10%;
+}
+.car_cap{
+  margin-top: 8%;
+}/*
+.cap_car{
+  display: flex;
+}
+.d-block1{
+
+  margin-top: 0%;
+  width:30%;
+  /*border-radius: 10px;
+  text-align: right;
+  margin-left: 10% !important;
+}*/

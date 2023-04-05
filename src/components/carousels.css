@@ -1,0 +1,8 @@
+.carousel-top{
+     margin: 1%;
+     background-image: url(desktops/workshop-react/);
+     color: white;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: 50%;
+}
